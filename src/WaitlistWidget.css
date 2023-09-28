@@ -1,0 +1,24 @@
+/* WaitlistWidget.css */
+
+/* Center the widget container */
+#getWaitlistContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically within the viewport */
+  }
+  
+  /* Additional styles for the widget container if needed */
+  /* WaitlistWidget.css */
+
+/* Center the element horizontally and vertically */
+.centered-element {
+    text-align: center; /* Center text content horizontally */
+    margin: auto; /* Center non-text elements horizontally */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally within the container */
+    align-items: center; /* Center vertically within the container */
+  }
+  
+  /* Additional styles for the centered element or its parent container */
+  

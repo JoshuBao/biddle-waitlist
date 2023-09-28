@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// src/App.js
+
+import React from 'react';
+import logo from './BiddleLogo.png'; // Import your logo image
+import WaitlistWidget from './WaitlistWidget'; // Import the WaitlistWidget component
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <header>
+     <img src={logo} alt="Logo" className="custom-logo" />
+     </header>
+       
+      
+      <div>
+      <WaitlistWidget />
+      </div>
+     
     </div>
   );
 }

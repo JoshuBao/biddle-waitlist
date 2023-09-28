@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* src/app.css */
+
+/* Center the entire app vertically and horizontally */
+html, body, #root {
+  height: 100%;
+}
+/* YourComponent.css */
+
+/* Style for the logo with the new class name */
+.custom-logo {
+  width: 200px; /* Adjust the width as needed for a larger size */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1; /* Ensure the logo appears above other content */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Other styles for your component */
+body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; /* Set the background color to pure white */
 }
 
-.App-link {
-  color: #61dafb;
+/* Rest of your styles */
+.App {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Other styles... */
